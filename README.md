@@ -1,4 +1,9 @@
 ## Inter Server
+### SSH
+```
+1. root@iwebitechnology.xyz
+2. root@162.220.160.183
+```
 ### Unable to change VPS password
 ```
 1. Reinstall OS and change the VPS password
