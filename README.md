@@ -8,12 +8,20 @@
 ```
 1. Login via View Desktop using your SSH root account (username and password)
 ```
-### Setup Reverse DNS (For SMTP requirements)
+### SMTP Requirements
+#### Setup Reverse DNS (For SMTP requirements)
 ```
 1. VPS -> VPS List -> Gear Icon -> Reverse DNS
-2. Update $vi /etc/hostname change to domain name iwebitechnology.xyz
-3. Use this tool to check if PTR propagated: https://mxtoolbox.com/SuperTool.aspx?action=ptr
+3. Use the tool to check if PTR propagated.
+   https://mxtoolbox.com/SuperTool.aspx?action=ptr
 4. or run $dig -x vps_ip_address
+```
+#### Change hostname
+```
+1. $vi /etc/hostname change the name to domain name iwebitechnology.xyz
+2. $vi /etc/hosts
+      127.0.0.1 localhost
+      127.0.1.1 iwebitechnology.xyz
 ```
 ### Unable to change VPS password
 ```
