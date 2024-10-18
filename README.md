@@ -4,6 +4,15 @@
 1. root@iwebitechnology.xyz
 2. root@162.220.160.183
 ```
+### Unable to login using SSH
+```
+1. Login via View Desktop using SSH root account 
+```
+### Setup Reverse DNS (For SMTP requirements)
+```
+1. Use this tool to check if PTR propagated: https://mxtoolbox.com/SuperTool.aspx?action=ptr
+2. Update /etc/hostname to domain name: iwebitechnology.xyz
+```
 ### Unable to change VPS password
 ```
 1. Reinstall OS and change the VPS password
