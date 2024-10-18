@@ -13,6 +13,7 @@
 1. VPS -> VPS List -> Gear Icon -> Reverse DNS
 2. Update $vi /etc/hostname change to domain name iwebitechnology.xyz
 3. Use this tool to check if PTR propagated: https://mxtoolbox.com/SuperTool.aspx?action=ptr
+4. or run $dig -x vps_ip_address
 ```
 ### Unable to change VPS password
 ```
