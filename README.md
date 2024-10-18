@@ -6,12 +6,13 @@
 ```
 ### Unable to login using SSH
 ```
-1. Login via View Desktop using SSH root account 
+1. Login via View Desktop using your SSH root account (username and password)
 ```
 ### Setup Reverse DNS (For SMTP requirements)
 ```
-1. Use this tool to check if PTR propagated: https://mxtoolbox.com/SuperTool.aspx?action=ptr
-2. Update /etc/hostname to domain name: iwebitechnology.xyz
+1. VPS -> VPS List -> Gear Icon -> Reverse DNS
+2. Update $vi /etc/hostname change to domain name iwebitechnology.xyz
+3. Use this tool to check if PTR propagated: https://mxtoolbox.com/SuperTool.aspx?action=ptr
 ```
 ### Unable to change VPS password
 ```
